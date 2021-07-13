@@ -6,3 +6,7 @@ export interface Acao {
   descricao: string;
   preco: number;
 }
+
+export interface AcoesAPI {
+  payload: Acoes;
+}
